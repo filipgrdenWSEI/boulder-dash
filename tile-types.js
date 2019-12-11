@@ -1,27 +1,32 @@
 const TilesProperties = {
     empty: {
       type: 'empty',
-      spriteXPos: 100,
-      spriteYPos: 100
+      spriteXPos: 0,
+      spriteYPos: 192
     },
     sand: {
       type: 'sand',
-      spriteXPos: 50,
-      spriteYPos: 180
+      spriteXPos: 32,
+      spriteYPos: 224
     },
     diamond: {
       type: 'diamond',
-      spriteXPos: 100,
-      spriteYPos: 30
+      spriteXPos: 0,
+      spriteYPos: 320
     },
     wall: {
       type: 'wall',
-      spriteXPos: 40,
-      spriteYPos: 50
+      spriteXPos: 96,
+      spriteYPos: 192
     },
     stone: {
       type: 'stone',
       spriteXPos: 0,
       spriteYPos: 224
-    }
+    },
+    miner: {
+        type: 'miner',
+        spriteXPos: 0,
+        spriteYPos: 0   
+      }
   }
