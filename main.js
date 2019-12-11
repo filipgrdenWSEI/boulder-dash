@@ -1,0 +1,1 @@
+const boulderdash = new BoulderDash('bouldercanvas')
